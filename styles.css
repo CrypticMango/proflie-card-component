@@ -1,59 +1,104 @@
 :root {
-    --dark-cyan: hsl(185, 75%, 39%)
-    --desaturated-blue: hsl(229, 23%, 23%)
-    --greyish-blue: hsl(227, 10%, 46%)
-}
-body {
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 0;
-    min-height: 100vh;
-    font-family: 'Kumbh Sans', sans-serif;
-    background-color: hsl(185, 75%, 39%);
-    text-align: center;
+  --dark-cyan: hsl(185, 75%, 39%);
+  --dark-blue: hsl(229, 23%, 23%);
+  --greyish-blue: hsl(227, 10%, 46%);
 }
 
-footer {
-    position: absolute;
-    top: 800px;
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Kumbh Sans", sans-serif;
+  background-color: hsl(185, 75%, 39%);
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+  color: var(--dark-blue);
+}
+
+p {
+  font-size: 14px;
+  color: var(--greyish-blue);
 }
 
 ul {
-    list-style-type: none;
-    padding-inline-start: 0px;
-    display: flex;
-    flex-direction: row;
+  position: relative;
+  bottom: 35px;
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.card-border {
-    border-radius: 16px 16px 1px 1px;
+hr {
+  position: relative;
+  bottom: 40px;
+  border: none;
+  height: 1px;
+  background-color: hsla(227, 10%, 46%, 0.171);
 }
 
-.victors-picture {
-    border-radius: 50px;
+footer {
+  position: absolute;
+  top: 800px;
+}
+
+.age {
+  font-weight: normal;
+  color: var(--greyish-blue);
 }
 
 .card-container {
-   width: 350px;
-   height: 500px;
-   height: fit-content;
-   background-color: white;
-   border-radius: 16px;
+  width: 320px;
+  height: 370px;
+  background-color: white;
+  border-radius: 16px;
+}
+
+.card-banner {
+  border-radius: 16px 16px 1px 1px;
+  width: 320px;
+}
+
+.victors-picture {
+  border-radius: 55px;
+  border: solid 4px white;
+  position: relative;
+  bottom: 50px;
+}
+
+.name-and-age {
+  position: relative;
+  bottom: 45px;
+}
+
+.location {
+  position: relative;
+  bottom: 50px;
+}
+
+.stat-number {
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .top-circle {
-    position: absolute;
-    top: -500px;
-    right: 900px;
-    z-index: -1;
+  position: absolute;
+  top: -500px;
+  right: 900px;
+  z-index: -1;
 }
 
 .bottom-circle {
-    position: absolute;
-    top: 100px;
-    z-index: -1;
+  position: absolute;
+  top: 100px;
+  z-index: -1;
 }
 
 .attribution {
@@ -63,5 +108,3 @@ ul {
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
-
-
