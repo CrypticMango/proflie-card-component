@@ -1,38 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Profile card component</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Profile card component</title>
 
-</head>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-  
-  <main>
-  Victor Crest
-  26
-  London
+  <body>
+    <main>
+      <img
+        class="top-circle"
+        src="images/bg-pattern-top.svg"
+        alt="gradient-circle"
+      />
+      <img
+        class="bottom-circle"
+        src="images/bg-pattern-bottom.svg"
+        alt="gradient-circle"
+      />
+      
+      <div class="card-container">
+        <div class="name-and-age">Victor Crest 26</div>
+        <div class="location">London</div>
+        <ul>
+          <li class="stat-number">80K</li>
+          <li class="stat-name">Followers</li>
 
-  80K
-  Followers
+          <li class="stat-number">803K</li>
+          <li class="stat-name">Likes</li>
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-</main>
-  <footer>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</footer>
-</body>
+          <li class="stat-number">1.4K</li>
+          <li class="stat-name">Photos</li>
+        </ul>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </body>
 </html>
