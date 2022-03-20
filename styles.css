@@ -51,7 +51,7 @@ ul {
 
 footer {
   position: absolute;
-  top: 800px;
+  top: 700px;
 }
 
 .age {
@@ -125,6 +125,7 @@ footer {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
