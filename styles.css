@@ -38,7 +38,7 @@ ul {
 
 hr {
   position: relative;
-  bottom: 40px;
+  bottom: 50px;
   border: none;
   height: 1px;
   background-color: hsla(227, 10%, 46%, 0.171);
@@ -55,32 +55,37 @@ footer {
 }
 
 .card-container {
-  width: 320px;
-  height: 370px;
+  width: 340px;
+  height: 375px;
   background-color: white;
   border-radius: 16px;
 }
 
 .card-banner {
   border-radius: 16px 16px 1px 1px;
-  width: 320px;
+  width: 340px;
 }
 
 .victors-picture {
-  border-radius: 55px;
-  border: solid 4px white;
+  border-radius: 50%;
+  border: solid 6px white;
   position: relative;
-  bottom: 50px;
+  bottom: 57px;
 }
 
 .name-and-age {
   position: relative;
-  bottom: 45px;
+  bottom: 55px;
 }
 
 .location {
   position: relative;
-  bottom: 50px;
+  bottom: 60px;
+}
+
+.profile-stats {
+  position: relative;
+  bottom: 42px
 }
 
 .stat-number {
