@@ -13,6 +13,10 @@ body {
   min-height: 100vh;
   font-family: "Kumbh Sans", sans-serif;
   background-color: hsl(185, 75%, 39%);
+  background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
+  background-position: bottom 300px right 900px, bottom -1000px right -400px;
+  background-size: 1500px;
+  background-repeat: no-repeat;
   text-align: center;
 }
 
@@ -26,6 +30,14 @@ p {
   color: var(--greyish-blue);
 }
 
+hr {
+  position: relative;
+  bottom: 50px;
+  border: none;
+  height: 1px;
+  background-color: hsla(227, 10%, 46%, 0.171);
+}
+
 ul {
   position: relative;
   bottom: 35px;
@@ -34,14 +46,6 @@ ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-}
-
-hr {
-  position: relative;
-  bottom: 50px;
-  border: none;
-  height: 1px;
-  background-color: hsla(227, 10%, 46%, 0.171);
 }
 
 footer {
