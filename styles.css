@@ -4,6 +4,13 @@
   --greyish-blue: hsl(227, 10%, 46%);
 }
 
+@media screen and (min-width: 950px)
+  {
+    body {
+    background-position: right 51vw bottom 40vh, left 49vw top 50vh; 
+  }
+  }
+
 body {
   align-items: center;
   display: flex;
@@ -14,7 +21,8 @@ body {
   font-family: "Kumbh Sans", sans-serif;
   background-color: hsl(185, 75%, 39%);
   background-image: url(/images/bg-pattern-top.svg), url(/images/bg-pattern-bottom.svg);
-  background-position: bottom 300px right 800px, bottom -550px right -200px;
+  background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+  height: 100vh;
   background-repeat: no-repeat;
   text-align: center;
 }
@@ -58,7 +66,7 @@ footer {
 }
 
 .card-container {
-  width: 340px;
+  width: 320px;
   height: 375px;
   background-color: white;
   border-radius: 16px;
@@ -67,7 +75,7 @@ footer {
 
 .card-banner {
   border-radius: 16px 16px 1px 1px;
-  width: 340px;
+  width: 320px;
 }
 
 .victors-picture {
@@ -89,7 +97,7 @@ footer {
 
 .profile-stats {
   position: relative;
-  bottom: 42px
+  bottom: 39px
 }
 
 .stat-number {
